@@ -1,0 +1,83 @@
+    body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    form {
+        text-align: center;
+    }
+    
+    label {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    
+    button {
+        margin-top: 1em;
+        padding: 0.5em;
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: #751b1b;
+        color: white;
+        border: none;
+        border-radius: 0.5em;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #fc0505;
+        transition: .2s linear all;
+    }
+    
+    h2 {
+        margin-top: 2em;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    #extatomensagem {
+        margin-top: 2em;
+        text-align: center;
+        font-size: 2.0em;
+    }
+    
+    #extatosaquemensagem {
+        margin-top: 2em;
+        text-align: center;
+        font-size: 2.0em;
+    }
+    
+    #saldo {
+        font-weight: bold;
+    }
+    
+    .backgroundcss {
+        width: 100%;
+        max-width: 100%;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 8%);
+        background: #fff;
+        display: inline-block;
+        margin: 0;
+        padding: 30px;
+        display: none;
+    }
+    
+    #telaseguranca {
+        width: 100%;
+        max-width: 100%;
+        box-shadow: 5px 5px 5px rgb(0 0 0 / 8%);
+        background: #fff;
+        display: inline-block;
+        margin: 0;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    #textoseguranca {
+        color: #fc0707;
+        z-index: 0;
+    }
